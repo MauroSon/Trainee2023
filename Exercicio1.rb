@@ -2,7 +2,7 @@ def lendoTexto(texto)
     i=0
     qnt=[]
     cont=0
-    palavras = text.split()
+    palavras = texto.split()
     while i<palavras.length()
         cont = palavras.count(palavras[i])
         qnt = qnt.push(cont)
